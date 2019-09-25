@@ -1,0 +1,48 @@
+.mainPanel {
+  background-color: #f4f4f4;
+  height: 100vh;
+  overflow-y: auto;
+}
+.headingContainer {
+  padding-bottom: 1em;
+  border-bottom: 2px solid #5d5cb4;
+}
+.headingRow {
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 1em 1em;
+  color: dimgray;
+}
+.button {
+  border-radius: 25px;
+  box-shadow: 0px 5px #e0e0e0;
+  border: 0px;
+  padding: 12px 20px;
+}
+.classDetailColumn {
+  padding: 15px 0px;
+  padding-left: 20px;
+  flex-grow: 2;
+}
+.buttonColumn {
+  align-self: flex-end;
+  padding: 20px;
+}
+.averageDetails {
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: white;
+}
+.empty {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.badgeList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}

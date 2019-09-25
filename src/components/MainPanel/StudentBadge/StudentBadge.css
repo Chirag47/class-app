@@ -1,0 +1,15 @@
+.box-card {
+  /* padding: 20px; */
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+.boxHeader {
+  color: darkslateblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+.percentage {
+  float: right;
+  color: #3cd6d0;
+}
